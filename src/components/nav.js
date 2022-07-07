@@ -9,11 +9,11 @@ export const Header = () => {
     <header>
           <ul className="nav-link">
             <li className="link">
-              <Link to="/" onClick={()=>{dispatch(inputSearch(''))}}>Dashboard</Link>
+              <Link to="/" onClick={()=>{dispatch(inputSearch(''))}} className="navButton">Dashboard</Link>
             </li>
 
             <li className="link">
-              <Link to="/favorite" onClick={()=>{dispatch(inputSearch(''))}}>Favorite</Link>
+              <Link to="/favorite" onClick={()=>{dispatch(inputSearch(''))}} className="navButton">Favorite</Link>
             </li>
           </ul>
     </header>
